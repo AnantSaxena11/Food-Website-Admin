@@ -7,7 +7,7 @@ import { Route, Routes } from 'react-router-dom'
 import { ToastContainer } from 'react-toastify';
 import 'react-toastify/dist/ReactToastify.css';
 const App = () => {
-  const url = "https://food-website-backend.onrender.com";
+  const url = "http://localhost:5000"; // backend urls  // do not add / at the end
   return (
     <div>
       <ToastContainer />
